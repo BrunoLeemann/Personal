@@ -1,0 +1,155 @@
+/* Mi código CSS */
+
+body {
+  padding-top: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+/*****************************************************************
+
+    HEADER
+
+/*****************************************************************/
+
+#header {
+  background-color: #222;
+  border-bottom: 4px solid #ff8f00;
+}
+
+#header-logo {
+  width: auto;
+  height: 20px;
+}
+
+#home{
+  flex: 1;
+}
+
+/*****************************************************************
+
+    FOOTER
+
+/*****************************************************************/
+
+
+/*****************************************************************
+
+  CAROUSEL
+
+/*****************************************************************/
+
+#carouselStyle{
+  
+  
+  border-bottom: 4px solid #ff8f00  ;  
+  margin-bottom: 30px;
+ 
+}
+ #carouselStyle .carouselImg{
+  
+  height: 36vw;
+  width: 100%;
+  object-fit: cover ;
+  
+}
+.textCarousel{
+  font-size: 1.8rem;
+}
+@media (max-width: 767px){
+  
+  .carouselImg{
+    height: 30vh ;
+    
+    
+    
+
+  }
+  #tituloBienvenido{
+    font-size: 0.5rem;
+  }
+}
+span{
+  font-weight: 300
+}
+/*******************************************************************************************************************************
+
+  HOME
+
+/********************************************************************************************************************************/
+
+
+#tituloBienvenido{
+  font-size: 3rem;
+}
+.tituloSeccion{
+  font-size: 1.3rem !important;
+}
+#footer{
+  color: aliceblue;
+
+  border-top: solid 5px #ff8f00 ;
+}
+.nobull {
+  list-style-type: none;
+ }
+
+ .titulo-moneda{
+  display: flex;
+  justify-content:space-between ;
+  align-items:flex-start;
+  
+ }
+
+ .bg-bg-orenged{
+  background-color: #ff8f00;
+  
+ }
+ #filtrar{
+  color: white;
+  display: block;
+  width: 100%;
+ }
+ #cambioMoneda{
+  display: block;
+  width: 100%;
+  background: rgb(251, 249, 249);
+ }
+
+ .carModel{
+  font-size: 1.8rem  ;
+ }
+ 
+ 
+
+
+ 
+ .btn-success-apple
+ {
+  background-color: rgb(71, 174, 11);
+  color: white;
+ }
+ 
+
+ /***************************************************************************************************
+
+    SOBRE NOSOTROS
+
+  /*************************************************************************************************/
+.btn-contacto{
+  width: 7rem;
+  color: #222;
+}
+.nuestroEquipoTexto{
+  text-align: center;
+}
